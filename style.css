@@ -1,0 +1,142 @@
+* {
+    font-family: Roboto;
+    border: 5px red solid;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.paddings {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.maintext {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.herotext {
+    width: 400px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.subheader {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.infoheading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quoteborder {
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    align-self: center;
+}
+
+.cardimg {
+    border: 5px #3882f6 solid;
+    border-radius: 25px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quoter {
+    width: 100%;
+    text-align: end;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.signupcontainer {
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signuptitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e5e7eb;
+}
+
+.signuptext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    background-color: #1f2937;
+}
+
